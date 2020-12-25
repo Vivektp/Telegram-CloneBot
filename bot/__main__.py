@@ -9,12 +9,13 @@ from bot.clone_status import CloneStatus
 from bot.msg_utils import deleteMessage, sendMessage
 import time
 
-REPO_LINK = "https://github.com/jagrit007/Telegram-CloneBot"
+REPO_LINK = "https://github.com/Vivektp/Telegram-CloneBot"
 # Soon to be used for direct updates from within the bot.
 
 @run_async
 def start(update, context):
-    sendMessage("Hello! Please send me a Google Drive Shareable Link to Clone to your Drive!" \
+    sendMessage("Hello! Please send me a Google Drive Shareable Link to Clone to your Drive!
+Join On @VKPROJECTS" \
         "\nSend /help for checking all available commands.",
     context.bot, update, 'Markdown')
     # ;-;
